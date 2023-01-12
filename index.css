@@ -1,3 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+
 body{
 	 font-family: "Open Sans", san-serif;
+}
+
+.profile_image img{
+	border-radius: 50%;
+    border: 10px solid skyblue;
+}
+
+#navbar{
+	background-color: #D2B48C;
+}
+
+#contact{
+	margin-top: -20px;
+	padding-top: 20px;
 }

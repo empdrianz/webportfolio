@@ -4,17 +4,18 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
 	<link rel="stylesheet" type="text/css" href="./index.css">
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
 
 	<title>Resume</title>
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
+  
+	<nav class="navbar navbar-expand-lg navbar-light text-light" id="navbar">
 	  <a class="navbar-brand" href="./index.html">Adrian</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -34,16 +35,33 @@
 	    </ul>
 	  </div>
 	</nav>
+  
+  
 
-	<div class="container-fluid row bg-dark text-light">
-	    <div class="text-center pt-5 pb-5 col-12 col-md-6 order-md-2 order-2">
-	        <h1>Adrian Maraasin</h1>
-	        <p></p>
-	    </div>
-	    <div class="pt-3 pb-3 col-12 col-md-6 order-md-1 order-1">
-	        <img class="img-fluid" src="images/me.jpg"/>
-	    </div>
+	
+		<!-- sm, md, lg, xl -->
+	<div class="container-fluid bg-dark text-light min-vh-100 p-3">
+
+		 <div class="profile_image container-fluid col-12 col-md-8 col-lg-4 text-center mt-5 w-100 pt-3 pb-3">
+			<img class="img-fluid rounded-circle" src="images/me.jpg" width="250">
+		  
+
+			<h1>Adrian Maraasin</h1>
+			<h3>Full-Stack Developer</h3>
+
+			
+				<div>
+					<p>
+						Hi! I am Adrian and I am a Full Stack Web Developer. I have the ability to develop websites that are both functional and aesthetically pleasing. I also create websites that are users friendly. I am also proficient in using variety of programming languages and tools.
+
+					</p>
+
+
+				</div>
+		</div>
+
 	</div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
